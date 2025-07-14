@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Rroseanne</title>
+        <script>
+          colorArray = ['#0c7740', '#ff4b00', '#2351fc', '#5741d1', '#c7c41c'];
+          colorIndex = 0;
+        
+          function setColorAndIncrement() {
+            document.querySelector('body').setAttribute('style', '--hoverColor:' + colorArray[colorIndex]);
+            colorIndex = (colorIndex + 1) % colorArray.length;
+          }
+        
+          window.onload = (event) => {
+            const style = document.createElement('style');
+            document.head.appendChild(style);
+            style.sheet.insertRule("a:hover { color:var(--hoverColor);}");
+        
+            setColorAndIncrement();
+            const anchorElements = document.querySelectorAll("a");
+            anchorElements.forEach((anchorElement) => {
+              anchorElement.addEventListener('mouseover', (event) => {
+                setColorAndIncrement();
+              });
+            });
+          };
+        </script>
+        <style>
+          <!--
+          p{
+            margin-bottom:.0002pt;
+            font-size:12.0pt;
+            font-family:"Times New Roman";
+            margin-left:0.15in; margin-right:0.15in; margin-top:0in;
+          }
+          .leftContent{
+            text-indent: 30px;
+          }
+          a:link {
+            color: rgb(0, 0, 0);
+            background-color: transparent;
+            text-decoration: none;
+          }
+          a:visited {
+            color: rgb(0, 0, 0);
+            background-color: transparent;
+            text-decoration: none;
+          }
+          a:hover {
+            color: none;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          a:active {
+            color: rgb(0, 0, 0);
+            background-color: transparent;
+            text-decoration: none;
+          }       
+          * {
+            box-sizing: border-box;
+          }
+          .column {
+          float: left;
+          padding: 5px;
+          }
+          .left {
+          width: 480px;
+          }
+          .right {
+          width: 480px;
+          }
+          .row:after {
+          content: "";
+          display: table;
+          clear: both;
+          }
+        </style>   
+    </head>
+    <body>           
+        <br>Roseanne Johnson (they/them┈┈b.1989)
+        <p>PhD Student, Dept. of Anthropology
+          <br>University of Pittsburgh
+        </p>
+          <br>current:
+        <p>roseanne.johnson@gmail.com
+          <br>Braddock, PA
+          <br>©2025
+        </p>
+        <br>conspiracies:
+        <p><a href="https://huner-francis.info/" target="blank">https://huner-francis.info/</a>
+          <br><a href="https://cecil-film.net/" target="blank">https://cecil-film.net/</a>
+        </p>
+        <br> 
+        <br> 
+        <br><i>Voluntary Associations (ongoing)</i>
+        <br>paper, glue, cotton balls, cardboard, dye, wire, yarn, united states postal service
+        <br>Braddock, PA
+        <br>(524.16 x 393.12 px)
+        <br>2024
+        <p>
+          <br><img src="images/erj-braddock-01.png" alt="images/erj-braddock-01.png" width="524.16" height="393.12 ">
+        </p>
+          <br>
+          <br>
+          <br> 
+        <br><i>Yardwork i-vi</i>
+        <br>2529 N Ridgeway unit #2 F
+        <br>Chicago, IL
+        <br>(720 x 897px)
+        <br>2020
+        <p>
+          <br><img src="images/erj-chicago-01.jpg" alt="erj-chicago-01.jpg" width="720" height="897">
+          <br><img src="images/erj-chicago-02.jpg" alt="erj-chicago-02.jpg" width="720" height="897">
+          <br><img src="images/erj-chicago-03.jpg" alt="erj-chicago-03.jpg" width="720" height="897">
+          <br><img src="images/erj-chicago-04.jpg" alt="erj-chicago-04.jpg" width="720" height="897">
+          <br><img src="images/erj-chicago-05.jpg" alt="erj-chicago-05.jpg" width="720" height="897">
+          <br><img src="images/erj-chicago-06.jpg" alt="erj-chicago-06.jpg" width="720" height="897">
+        </p>
+          <br>
+          <br>
+          <br> 
+        <br><i>Yardwork vii</i>
+        <br>2529 N Ridgeway unit #2 F
+        <br>Chicago, IL
+        <br>(720 x 539.86px)
+        <br>2020
+          <p>
+            <br><img src="images/erj-chicago-07.png" alt="erj-chicago-07.png" width="720" height="539.86">
+          </p>
+        
+    
+        
+        
+        
+        
+        <br>©2025 / Roseanne Johnson
+        <br>
+        <br>
+        <br>
+      
+          
+
+
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+</html>
+
+
+
